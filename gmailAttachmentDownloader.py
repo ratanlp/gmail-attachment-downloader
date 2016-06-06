@@ -28,8 +28,8 @@ SCOPES = 'https://www.googleapis.com/auth/gmail.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Gmail Files Downloader'
 
-STORE_DIRECTORY_PATH = '/Users/ratan/Movies/'
-GMAIL_LABEL_NAME = 'citibank'
+STORE_DIRECTORY_PATH = '/Users/ratan/Movies/'   # Change it to your local directory path
+GMAIL_LABEL_NAME = 'personal-images' # Change it to the label from which you want to download the file
 
 
 """Gets valid user credentials from storage.
